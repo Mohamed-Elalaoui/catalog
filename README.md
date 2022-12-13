@@ -1,27 +1,17 @@
-# Catalog
+1.Créer le micro-service customer-service qui permet de gérer les client
+![entity](https://user-images.githubusercontent.com/102621314/207299928-6306bc58-2587-405a-99ef-efc88a09aca6.PNG)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.8.
-
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+2.Créer le micro-service inventory-service qui permet de gérer les produits
+3. Créer la Gateway Spring cloud Gateway avec une Configuration statique du système de routage
+4. Créer l'annuaire Eureka Discrovery Service
+5. Faire une configuration dynamique des routes de la gateway
+6. Créer le service de facturation Billing-Service en utilisant Open Feign
+7. Créer un client Web Angular (Clients, Produits, Factures)
+8. Déployer le serveur keycloak :
+  - Créer un Realm
+  - Créer un client à sécuriser
+  - Créer des utilisateurs
+  - Créer des rôles
+  - Affecter les rôles aux utilisateurs
+  - Tester les différents modes d'authentification avec Postman en montrant les contenus de Access-Token, Refresh Token
+9. Sécuriser les micro-services et le frontend angular en déployant les adaptateurs Keycloak
